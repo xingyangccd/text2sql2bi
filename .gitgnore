@@ -19,3 +19,19 @@ __pycache__/
 
 # 临时文件
 get-pip.py
+# Python
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

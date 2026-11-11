@@ -36,7 +36,6 @@ class Settings(BaseSettings):
             if item.strip()
         ]
 
-
 @lru_cache
 def get_settings() -> Settings:
     return Settings()

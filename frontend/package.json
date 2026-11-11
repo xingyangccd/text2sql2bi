@@ -1,24 +1,23 @@
 {
   "name": "text2sql2bi-frontend",
-  "version": "0.1.0",
   "private": true,
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vue-tsc -b && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "axios": "^1.7.9",
-    "echarts": "^5.6.0",
-    "element-plus": "^2.9.1",
-    "@element-plus/icons-vue": "^2.3.1",
-    "pinia": "^2.3.0",
-    "sql-formatter": "^15.4.9",
-    "vue": "^3.5.13"
+    "@vueuse/core": "^13.6.0",
+    "echarts": "^6.0.0",
+    "sql-formatter": "^15.8.2",
+    "vue": "^3.5.18"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.1",
-    "vite": "^6.0.5"
+    "@vitejs/plugin-vue": "^6.0.1",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2",
+    "vue-tsc": "^3.0.5"
   }
 }
